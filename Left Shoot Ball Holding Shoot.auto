@@ -1,0 +1,85 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Left to Shoot"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AlignWithHubTag"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "ShootBall"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Left Shoot to Ball Holding"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "IntakeOut"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "RollerStart"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Ball Holding Move Forward"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "IntakeIn"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "RollerStop"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Ball Holding to Left Shoot"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AlignWithHubTag"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "ShootBall"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "Left Side Autonomous",
+  "choreoAuto": false
+}

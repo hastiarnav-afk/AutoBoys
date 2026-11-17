@@ -1,0 +1,67 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Left to Middlefield"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "InitiateIntake"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Left Middlefield Pickup"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "RetractAndStopIntake"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Middlefield to Left"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "ShooterSpinUp"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Left to Shoot"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AlignWithHubTag"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "ShootBallFinal"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "Left Side Autonomous",
+  "choreoAuto": false
+}
