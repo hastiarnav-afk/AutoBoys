@@ -1,0 +1,85 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "MidtoLeft"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "LeftOverRamp"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "BeforePickup"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "InitiateIntake"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "FinishPickup"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "RetractAndStopIntake"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "ShootBeforeRamp"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "ShootAfterRamp"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "ShooterSpinUp"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "ShootingPosition"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AlignWithHubTag"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "ShootBallFinal"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "Random Auto",
+  "choreoAuto": false
+}
